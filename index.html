@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Mojito: Motion Trajectory and Intensity Control for Video Generation" />
+    <meta property="og:url" content="https://mojito-re.github.io/mojito-re/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mojito: Motion Trajectory and Intensity Control for Video Generation</title>
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/index.js"></script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.1.1/gradio.js"></script>
+</head>
+
+<body>
+    <section class="hero banner" style="background-color: transparent;">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title" style="font-size:45px; color:black;"><b>Mojito: Motion Trajectory and Intensity Control for Video Generation</b></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <h2 class="title is-3">Example Video 1</h2>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <video controls width="100%">
+                            <source src="static/videos/3_45.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>Video showcasing <b>fast bboxes</b> shifting with <b>low motion intensity</b>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <h2 class="title is-3">Example Video 2</h2>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <video controls width="100%">
+                            <source src="static/videos/6.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>Video showcasing <b>fast bboxes</b> shifting with <b>low motion intensity</b>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <h2 class="title is-3">Example Video 3</h2>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <video controls width="100%">
+                            <source src="static/videos/4_21.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>Video showcasing <b>fast bboxes</b> shifting with <b>low motion intensity</b>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <h2 class="title is-3">Example Video 4</h2>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <video controls width="100%">
+                            <source src="static/videos/5.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>Video showcasing <b>fast bboxes</b> shifting with <b>low motion intensity</b>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <h2 class="title is-3">Example Video 5</h2>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <video controls width="100%">
+                            <source src="static/videos/1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>Video showcasing <b>slow bboxes</b> shifting with <b>high motion intensity</b>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <h2 class="title is-3">Example Video 6</h2>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <video controls width="100%">
+                            <source src="static/videos/2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>Video showcasing <b>slow bboxes</b> shifting with <b>high motion intensity</b>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <h2 class="title is-3">Example Video 7</h2>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <video controls width="100%">
+                            <source src="static/videos/3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>Video showcasing <b>slow bboxes</b> shifting with <b>high motion intensity</b>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <h2 class="title is-3">Example Video 8</h2>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <video controls width="100%">
+                            <source src="static/videos/4.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>Video showcasing <b>slow bboxes</b> shifting with <b>high motion intensity</b>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
